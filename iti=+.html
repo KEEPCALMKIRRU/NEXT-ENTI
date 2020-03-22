@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color:rgb(14, 44, 143);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width:fit-content;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  box-shadow: 0 12px 16px 0 rgb(87, 86, 86),0 17px 50px 0 rgba(73, 73, 73, 0.986);
+
+  
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body>
+  <a href="index.html">
+    <img src="lo20.jpg" width="100%" height="100%"></a>
+<hr>
+<ul>
+  <li>
+    <h1>Courses in ITI :</h1>
+    <p> move  to gallery to visualize about courses: <a href="galleryiti.html"> click here </a> </p>
+    
+    <button type="button" class="collapsible">click here</button>
+    <div class="content">
+      <br>
+    <ol> 
+     <ul> <li><b>
+        Engineering Trades:
+      </b> </li></ul><br>
+    <li>Draughtsman (Civil)  2 Years  </li>
+    <li>  Draughtsman (Mechanical) 2 Years </li>
+    <li> Electrician 2 Years  </li>
+    <li>Electronics Mechanic – 2 Years  </li>
+    <li> Fitter – 2 Years  </li>
+    <li>Information Communication Technology System Maintenance 2 Years  </li>
+    <li> Instrument Mechanic  2 Years </li>
+    <li>Instrument Mechanic (Chemical Plant)  2 Years  </li>
+    <li>Laboratory Assistant (Chemical Plant)  2 Years  </li>
+    <li>Machinist  2 Years  </li>
+    <li> Machinist (Grinder)  2 Years  </li>
+    <li>Mechanic (Refrigeration and Air-Conditioner )  2 Years  </li>
+    <li>Mechanic Computer Hardware  2 Years  </li>
+    <li> Mechanic Motor Vehicle  2 Years </li>
+    <li> Turner  2 Years </li>
+    <li> Wireman  2 Years  </li>
+    <li>Foundryman  1 Year  </li>
+    <li> Mechanic Diesel  1 Year  </li>
+    <li> Plastic Processing Operator 1 Year  </li>
+    <li> Plumber 1 Year  </li>
+    <li>Carpenter  1 Year  </li>
+    <li> Sheet Metal Worker  1 Year  </li>
+    <li> Welder  1 Year   </li>
+    </ol><br>
+    <ul>
+      <li><b>
+       Non-Engineering Trades:
+     </b> </li>
+    </ul><br>
+    <ol>
+    <li> Dental Laboratory Technician  2 Years </li>
+    <li>  Computer Operator and Programming Assistant 1 Year </li>
+    <li>Dress Making  1 Year  </li>
+    <li> Health Sanitary Inspector  1 Year </li>
+    <li> Hospital House Keeping  1 Year </li>
+    <li>Litho Offset Machine Minder  1 Year  </li>
+    <li> Pre/Preparatory School Management (Assistant)  1 Year </li>
+    <li>wing Technology 1 Year  </li>
+    <li>Stenographer & Secretarial Assistant (English)  1 Year  </li>
+    <li> Driver cum Mechanic (Light Motor Vehicle) 6 Months </li>
+    
+    </ol>
+    
+    </div>
+    </li>
+   <hr>
+   <li>
+    <h1>Ways after ITI:</h1>
+   </li>
+<ol>
+  <li><h3>
+    Further Studies:</h3>
+  <ul>
+    <li>
+      Diploma Courses
+    </li>
+    <li>
+      Specialized Short Term Courses
+    </li>
+    <li>
+      All India Trade Test
+    </li>
+
+  </ul>
+
+
+
+  </li>
+  <li>
+    <h3>
+      Job Opportunities:
+    </h3>
+<ul>
+  <li>
+    Job in Public Sector Units
+  </li>
+  <li>
+    Jobs in Private Sector
+  </li>
+  <li>
+    Self-Employment
+  </li>
+  <li>
+    Jobs in Foreign Countries
+  </li>
+</ul>
+
+
+
+
+  </li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
