@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylew.css">
+
+</head>
+<body>
+  
+
+  <div class="nav">
+  
+    <!-- Header -->
+    <div class="logo">
+      <a href="index.html">
+      <img src="log3.jpg" ></a>
+    </div>
+    
+    <!-- Navigation Bar -->
+    
+      <div class="nav-links">
+        
+    <ul>
+    
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+
+      <li><a href="about.html">About</a></li>
+    </ul>
+    
+      </div>
+    
+    </div>
+    <hr>
+
+
+
+<ul>
+  <li>
+
+    <h2>Courses in Short Term Courses:</h2>
+    <p> move  to gallery to visualize about courses:   <a href="gallerystc.html"> Click Here </a> </p>
+    
+    <button type="button" class="collapsible">Click Here</button>
+    <div class="content">
+    <ol>  
+    <li>Office Automation 6 Months </li>
+    <li> Auto Cad 6 Months  </li>
+    <li> Web Design 6 Months </li>
+    <li>PC Maintain & Troubleshooting 6 Months </li>
+    <li>Basic Animation 6 Months   </li>
+    </ol>
+    <br>
+    <ul><li><b>CRAFT Hotel Management:</b></li></ul>
+    <ol>
+      <li> Food Protection 1 Year </li>
+      <li> Food & Beverage Services 6 Months  </li>
+    </ol><br>
+    <ul><li><b>Safty:</b></li></ul>
+    <ol>
+      <li>Industrial Safety 1 Year  </li>
+      <li> Fire Safety 6 Months  </li>
+      <li> Chemical Safety 6 Months </li>
+    </ol><br>
+    <ul><li><b>Fashion Technology:</b></li></ul>
+    <ol>
+      <li>Interior Designing 1 Year  </li>
+      <li> Fashion Designing & Garment Making 1 year</li>
+    </ol>
+    <br>
+    <ul><li><b>Yoga:</b></li></ul>
+    <ol>
+      <li>Yoga Vigyan 3 months  </li>
+      <li>  Yoga Vigyan for Teachers 6 months  </li>
+    </ol>
+    </ol>
+    
+    </div>
+    </li>
+    <hr>
+</ul>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
