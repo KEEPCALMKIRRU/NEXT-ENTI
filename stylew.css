@@ -1,0 +1,107 @@
+
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffffff;
+    background-image: linear-gradient( 180deg,  rgba(5, 84, 94, 0.626) 10%, #bbb 91.1% );
+    
+  }
+
+.nav{
+    width: 100%;
+    position: sticky;
+    margin-left:6%;
+    margin-top: 5%;
+    z-index: 1;
+    display: flex;
+    align-items:left;
+  }
+  
+  
+  /* Header/logo Title */
+  .logo{
+    flex-basis: 0%;
+  }
+  .logo img{
+  width: 150px;
+  }
+    
+  
+  li a.active {
+    color: white;
+    background-color: rgb(255, 254, 254);
+  }
+  .collapsible {
+   
+    padding: 5px;
+    width:fit-content;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    font-family: Bahnschrift;
+   
+  }
+  
+.box{
+  margin: 1px;
+  border:1px solid black;
+  width:fit-content;
+  padding: 5px;
+  }
+  
+  a:hover,.collapsible:hover {
+    box-shadow: 0 3px 5px 0 rgb(255, 255, 255),0 1px 5px 0 rgba(175, 171, 171, 0.986);
+  }
+  
+  .content {
+    margin-top: 30px;
+    padding: 0 18px;
+    margin-left: 0px;
+    border-radius: 7px;
+   color: #121111;
+    display: none;
+    overflow: hidden;
+    background-color:#f3f3f3 ;
+    font-family:  sans-serif;
+  }
+  
+  p{
+    color: #80fffb;
+    font-size: 17px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255) ;
+  }
+  
+  
+  /* Footer */
+  .footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #606b75;
+    color: #ffffff;
+   width: 100%;
+  }
+
+  .fa-instagram {
+    background: rgb(152, 59, 102);
+    width: 20px;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;width: 20px;
+  }
+  .fa-whatsapp {
+    background: green;
+    color: white;width: 20px;
+  }
+  
+  
+  
